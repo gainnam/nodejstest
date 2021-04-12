@@ -98,7 +98,7 @@ const template = multiline(()=>{/*
 </html>
 */});
 			
-<!-- IoT시스템용 라우터(컨트롤러) = API서버 -->
+// <!-- IoT시스템용 (컨트롤러) = API서버 -->
 app.get('/', function(req,res){
 	res.send(template);
 });
